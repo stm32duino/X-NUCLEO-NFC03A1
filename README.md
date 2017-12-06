@@ -9,7 +9,7 @@ It also supports the detection, reading and writing of NFC Forum Type 1, 2, 3 an
 
 ## Examples
 
-There are several examples with the X-NUCLEO-NFC01A1 library: 
+There is one example with the X-NUCLEO-NFC03A1 library: 
 * X_NUCLEO_NFC03A1_HelloWorld: This application is to show how to detect, read and write NFC Forum Type 1, 2, 3 and 4 tags.
 
 ## Documentation
