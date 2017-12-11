@@ -53,7 +53,12 @@
 /* Size */
 #define PCDNFCT2_READ_SIZE					16
 #define PCDNFCT2_READ_SIZE_BUFFER		18
-#define PCDNFCT2_SECTOR_SIZE				256 //1024 
+#ifndef PCDNFCT2_SECTOR_SIZE
+// if not defined at application level, let's use 1024 for wider compatibility
+// it can be reduced to lower values, e.g. 256, but with restrictions :
+//       issue on second sector read
+#define PCDNFCT2_SECTOR_SIZE		1024
+#endif
 
 /* Mask */
 #define PCDNFCT2_READ_MSK						0xF0
