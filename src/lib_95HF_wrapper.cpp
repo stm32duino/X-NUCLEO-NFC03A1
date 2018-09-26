@@ -33,7 +33,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "lib_wrapper.h"
-#include "lib_ndef.h"
+#include "lib_NDEF.h"
 
 #include "lib_nfctype1pcd.h"
 #include "lib_nfctype2pcd.h"
