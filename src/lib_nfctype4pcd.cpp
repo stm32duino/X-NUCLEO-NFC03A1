@@ -239,8 +239,8 @@ uint8_t PCDNFCT4_ReadNDEF( void )
 	}
 	if (size > 0)
 	{
-		errchk(PCDNFCT4_ReadBinary(0, size, buffer));
-		memcpy(&CardNDEFfile[0],&buffer[PCD_DATA_OFFSET+1],size);
+		errchk(PCDNFCT4_ReadBinary(i*limit, size, buffer));
+		memcpy(&CardNDEFfile[i*limit],&buffer[PCD_DATA_OFFSET+1],size);
 	}
 		
 	return PCDNFCT4_OK;
