@@ -2,7 +2,7 @@
  ******************************************************************************
  * @file    X_NUCLEO_NFC03A1_HelloWorld.ino
  * @author  AST
- * @version V1.0.0
+ * @version V2.0.0
  * @date    2 September 2021
  * @brief   Arduino test application for the STMicrolectronics X-NUCLEO-NFC03A1
  *          NFC reader/writer expansion board.
